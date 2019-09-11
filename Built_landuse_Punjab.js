@@ -1,3 +1,12 @@
+/*
+// Documentation: https://github.com/mprakhar/Aakash
+// Author: Prakhar Misra
+// Created: 20190910
+// Last updated: 20190910
+// Purpose: GEE JS Code to identify land-use of the urban morphology using building height and nighttime light information
+*/
+
+
 var nDSM_Hyderabad = ee.Image("users/prakhar/AW3D_C18_nDSM"),
     greenestL8C = ee.ImageCollection("LANDSAT/LC8_L1T_ANNUAL_GREENEST_TOA"),
     nighttimeLightC = ee.ImageCollection("NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG"),
