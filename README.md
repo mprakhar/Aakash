@@ -1,1 +1,1 @@
-# Project Aakash (BLue Sky)
+# Project Aakash (Blue Sky)
